@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #a4d0d3;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-img {
+  margin-top: 50px;
+  display: flex;
+  margin-left: 20px;
+  justify-content: center;
+}
+.form-img img {
+  position: absolute;
+  width: 20%;
+  right: 100;
+}
+.login .logo {
+  margin-top: 20px;
+}
+.logo {
+}
+.login-form {
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+.login-content {
+  color: #fff;
+  margin-top: 20px;
+}
+.login-fom {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.dropdown {
+  float: right;
+
+  margin-left: 20px;
+}
+.crate-form {
+  margin-top: 50px;
+}
+.crate-form h5 {
+  font-weight: bold;
+}
+.create-with {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #e6e2e2;
+}
+.create-with p {
+  margin-bottom: 0;
+  font-size: 14px;
+  padding: 0px 20px;
+}
+.create-with i {
+  background-color: #a4d0d3;
+  display: flex;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px 0px 0px 10px;
+}
+.create-with-both {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.name-input {
+  border: none;
+  border-bottom: 1px solid #beb9b9;
+  border-radius: 0px;
+}
+.name-input::after,
+.name-input::before {
+  border: none;
+}
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
+.submit-button .btn {
+  background-color: #6da9a5;
+  color: #fff;
+}
+.already-text {
+  font-size: 14px;
+}
+.already-text span {
+  color: #6da9a5;
+}
+.dropdown-country {
+  background-color: none;
+}
+.facebook-img {
+  width: 35px;
+  padding: 4px;
+}
+.signup-text {
+  display: flex;
+  align-items: center;
+}
+.signup-text h1 {
+  font-size: 60px;
+  color: #fff;
+  margin: 0;
+}
+.signup-text p {
+  font-size: 60px;
+  color: #fff;
+  margin: 0;
+}
